@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/river_menu_bookmark"
+          android:title="Bookmark"
+            />
+
+    <item android:id="@+id/river_menu_sources"
+          android:title="Sources"
+            />
+
+    <item android:id="@+id/river_menu_help"
+          android:title="Help"
+            />
+</menu>
+

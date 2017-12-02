@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Craigslist Cities"
+            android:id="@+id/tryout_craigslist_cities"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Dialog 4"
+            android:id="@+id/tryout_dialog_4"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Post RSS"
+            android:id="@+id/tryout_post_rss"/>
+
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ping RSS Cloud"
+            android:id="@+id/tryout_ping_rss_cloud"/>
+
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Airport Codes"
+            android:id="@+id/tryout_get_airport_codes"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert Podcast entry"
+            android:id="@+id/tryout_insert_podcast_entry"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start podcast manager"
+            android:id="@+id/tryout_start_podcast_manager"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bookmark Collection"
+            android:id="@+id/tryout_bookmark_collection_btn"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Download Atom"
+            android:id="@+id/tryout_download_atom_btn"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Download Rss"
+            android:id="@+id/tryout_download_rss_btn"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Download File"
+            android:id="@+id/tryout_download_file_btn"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Download GIF Image"
+            android:id="@+id/tryout_download_gif_image_btn"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Download JPG Image"
+            android:id="@+id/tryout_download_jpg_image_btn" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Download PNG Image"
+            android:id="@+id/tryout_download_png_image_btn"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Notification"
+            android:id="@+id/tryout_show_notification_btn" android:layout_gravity="center"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Setup Bookmark Table"
+            android:id="@+id/tryout_setup_bookmark_table_btn" android:layout_gravity="center"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert Data to Bookmark"
+            android:id="@+id/tryout_insert_data_bookmark_table_btn" android:layout_gravity="center"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Download recursive OPML"
+            android:id="@+id/tryout_download_recursive_opml_btn" android:layout_gravity="center"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Show an outline"
+            android:id="@+id/tryout_show_outline_btn" android:layout_gravity="center"/>
+
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Download RiverJs with Opml Source"
+            android:id="@+id/tryout_download_riverjs_with_opml_btn" android:layout_gravity="center"/>
+
+</LinearLayout>

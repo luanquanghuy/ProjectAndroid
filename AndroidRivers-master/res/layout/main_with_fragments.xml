@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <fragment android:name="com.silverkeytech.android_rivers.fragments.RiverListFragment"
+              android:id="@+id/main_rivers_fragment"
+              android:layout_weight="1"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+            />
+
+    <fragment android:name="com.silverkeytech.android_rivers.fragments.RssListFragment"
+              android:id="@+id/main_rss_fragment"
+              android:layout_weight="1"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" />
+
+    <fragment android:name="com.silverkeytech.android_rivers.fragments.CollectionListFragment"
+              android:id="@+id/main_collection_fragment"
+              android:layout_weight="1"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" />
+
+    <fragment android:name="com.silverkeytech.android_rivers.fragments.PodcastListFragment"
+              android:id="@+id/main_podcast_fragment"
+              android:layout_weight="1"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" />
+
+
+    <fragment android:name="com.silverkeytech.android_rivers.fragments.OpmlListFragment"
+              android:id="@+id/main_opml_fragment"
+              android:layout_weight="1"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" />
+</LinearLayout>
+

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Intent Bai Tap</string>
+    <string-array name="list_name">
+        <item>pokemon1</item>
+        <item>pokemon2</item>
+        <item>pokemon3</item>
+        <item>pokemon4</item>
+        <item>pokemon5</item>
+        <item>pokemon6</item>
+        <item>pokemon7</item>
+        <item>pokemon8</item>
+        <item>pokemon9</item>
+        <item>pokemon10</item>
+        <item>pokemon11</item>
+        <item>pokemon12</item>
+        <item>pokemon13</item>
+        <item>pokemon14</item>
+        <item>pokemon15</item>
+        <item>pokemon16</item>
+        <item>pokemon17</item>
+        <item>pokemon18</item>
+        <item>pokemon19</item>
+        <item>pokemon20</item>
+        <item>pokemon21</item>
+    </string-array>
+</resources>

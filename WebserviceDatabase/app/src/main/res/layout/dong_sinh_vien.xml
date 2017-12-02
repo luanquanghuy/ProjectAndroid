@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:weightSum="10"
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="8"
+            android:text="Ho ten"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:id="@+id/textviewHoTen"
+            android:textColor="#1860ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageviewDelete"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <ImageView
+            android:id="@+id/imageviewEdit"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_below="@id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Nam sinh"
+            android:id="@+id/textviewNamSinh"
+            android:textColor="#7dc42b"
+            android:layout_weight="2.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Dia Chi"
+            android:id="@+id/textviewDiaChi"
+            android:textColor="#ca4233"
+            android:layout_weight="7.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

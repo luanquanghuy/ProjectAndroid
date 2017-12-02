@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Webservice Database</string>
+    <string name="urldelete">http://192.168.56.1/androidwebservice/delete.php</string>
+</resources>

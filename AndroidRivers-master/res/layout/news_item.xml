@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:id="@+id/tableLayout1"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginRight="5dp"
+
+            >
+        <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/news_item_text_tv"
+                    android:padding="3dp"
+                    android:layout_weight="1"
+                    />
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/news_item_source_tv"
+                    android:padding="3dp"
+                    android:textSize="11dp"
+                    />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/news_item_indicator_tv"
+            android:layout_alignParentRight="true"
+            android:gravity="fill_vertical"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"/>
+
+</RelativeLayout>
